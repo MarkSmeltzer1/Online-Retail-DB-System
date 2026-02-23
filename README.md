@@ -85,6 +85,7 @@ online-retail-db-system/
 ├── screenshots/
 ├── README.md
 └── .gitignore
+```
 
 ---
 
