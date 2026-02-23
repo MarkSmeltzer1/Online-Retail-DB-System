@@ -63,29 +63,28 @@ See the diagram image in the `docs/diagrams` folder.
 
 ## Repository Structure
 
-
+```text
 online-retail-db-system/
 ├── db/
-│ ├── schema/
-│ │ ├── 01_schema.sql
-│ │ └── 02_alter_schema.sql
-│ ├── routines/
-│ │ ├── 02_views.sql
-│ │ ├── 03_functions.sql
-│ │ ├── 04_procedures.sql
-│ │ └── 05_triggers.sql
-│ └── demo/
-│ ├── 00_seed_data.sql
-│ └── 99_demo_queries.sql
+│   ├── schema/
+│   │   ├── 01_schema.sql
+│   │   └── 02_alter_schema.sql
+│   ├── routines/
+│   │   ├── 02_views.sql
+│   │   ├── 03_functions.sql
+│   │   ├── 04_procedures.sql
+│   │   └── 05_triggers.sql
+│   └── demo/
+│       ├── 00_seed_data.sql
+│       └── 99_demo_queries.sql
 ├── php/
-│ ├── config.example.php
-│ └── finalproject.php
+│   ├── config.example.php
+│   └── finalproject.php
 ├── docs/
-│ └── diagrams/
+│   └── diagrams/
 ├── screenshots/
 ├── README.md
 └── .gitignore
-
 
 ---
 
