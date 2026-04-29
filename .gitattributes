@@ -1,6 +1,10 @@
 # Keep GitHub's language summary focused on the database implementation.
-*.sql linguist-detectable=true
-php/** linguist-vendored
-docs/** linguist-documentation
-screenshots/** linguist-documentation
+db/**/*.sql linguist-language=SQL linguist-detectable=true
+
+# The PHP files are a small demo UI, not the primary implementation.
+php/**/*.php linguist-vendored=true
+
+# Documentation and screenshots should not affect the language bar.
+docs/** linguist-documentation=true
+screenshots/** linguist-documentation=true
 
