@@ -1,8 +1,8 @@
 <?php
 //
-// Final Project PHP Front END
+// Online Retail Database Demo
 // Mark Smeltzer 
-// Database Design Porject Part 4
+// PHP interface for exercising the MySQL schema and routines
 //
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
@@ -25,7 +25,7 @@ $message = "";
 <!DOCTYPE html>
 <html>
 <head>
-<title>MySQL Operations Demo</title>
+<title>Online Retail Database Demo</title>
 <style>
 body { font-family: Arial; width: 700px; margin: 20px auto; }
 input, select { padding: 5px; margin: 5px; }
@@ -36,7 +36,7 @@ td,th { border: 1px solid #888; padding: 6px; }
 </head>
 <body>
 
-<h1>MySQL Operations Demo</h1>
+<h1>Online Retail Database Demo</h1>
 
 <!-- INSERT CUSTOMER -->
 <h2>Insert</h2>
@@ -130,7 +130,7 @@ if (isset($_POST['deleteBtn'])) {
 }
 ?>
 
-<!-- SELECT – DISPLAY ALL CUSTOMERS -->
+<!-- SELECT - DISPLAY ALL CUSTOMERS -->
 <h2>Select (Display Customers)</h2>
 
 <?php

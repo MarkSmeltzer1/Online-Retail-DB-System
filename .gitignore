@@ -1,1 +1,10 @@
 php/config.php
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Runtime/log output
+*.log

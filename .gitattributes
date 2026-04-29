@@ -1,0 +1,6 @@
+# Keep GitHub's language summary focused on the database implementation.
+*.sql linguist-detectable=true
+php/** linguist-vendored
+docs/** linguist-documentation
+screenshots/** linguist-documentation
+
